@@ -369,8 +369,9 @@ strong {
     height: 60%;
     margin-bottom: 5rem;
     text-align: center;
-    color: #fff;
-    background: url('../images/rise-bg.png') no-repeat center center;
+    color: rgba(213, 42, 20, 0.86);
+
+    background: url('../img/rise-bg.jpg') no-repeat center center;
     
 
     background-size: cover;
