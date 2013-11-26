@@ -92,6 +92,7 @@ body {
     font-size: 1.8rem;
     line-height: 1.6em;
     color: #3A4145;
+
 }
 
 ::-moz-selection {
@@ -371,7 +372,7 @@ strong {
     text-align: center;
     color: rgba(213, 42, 20, 0.86);
 
-    background: url('../img/rise-bg.jpg') no-repeat center center;
+    /*background: url('../img/rise-bg.jpg') no-repeat center center;*/
     
 
     background-size: cover;
