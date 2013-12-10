@@ -72,6 +72,11 @@ frontendControllers = {
                 ghost.doFilter('prePostsRender', post, function (post) {
                     res.render('about', {post: post});                    
                 });
+            } else if (req.params.slug == 'contact') {
+                
+                ghost.doFilter('prePostsRender', post, function (post) {
+                    res.render('contact', {post: post});                    
+                });
             } else {
                 next();
             }
