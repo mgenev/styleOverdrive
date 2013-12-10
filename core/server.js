@@ -303,7 +303,7 @@ when(ghost.init()).then(function () {
     server.use(errors.error500);
 
     // ## Routing
-
+    // server.get('/about/', frontend.about);
     // ### API routes
     /* TODO: auth should be public auth not user auth */
     // #### Posts

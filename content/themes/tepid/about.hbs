@@ -1,0 +1,39 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<header id="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+    <div class="vertical">
+        <div id="site-head-content" class="inner">
+
+            {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+            <h1 class="blog-title">{{@blog.title}}</h1>
+            <h2 class="blog-description">{{@blog.description}}</h2>
+        </div>
+    </div>
+</header>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    {{! Each post will be output using this markup }}
+    
+    <article class="{{post_class}}">
+        
+        <em><p>Style Overdrive’s mission is to help arts organizations and communities share their creativity with the world.</p> </em>
+        <h1>About</h1>
+        <p>Based in Seattle, WA, the Style Overdrive team has a simple vision: An online publication dedicated to gaining recognition for the most deserving artists in the Pacific Northwest.</p>
+
+        <p>We are creating a new kind of online space for creatives who want to cut through the Internet’s overwhelming noise and clutter. </p>
+
+        <p>Style Overdrive’s first project is a short documentary film about Seattle’s Cornerstone Open Mic and Artist Showcase - A remarkable arts community that emerged at the beginning of the 2000’s, when two friends started searching for a place to express themselves artistically. The film will be released as a series of short episodes beginning in 2014 and is a tribute to the selfless work and heartfelt art that went into the The Cornerstone’s five incredible years.</p>
+
+        <p>The Cornerstone documentary project will set the stage for Style Overdrive Magazine, the Northwest’s first online arts and culture publication dedicated to sharing the work of community oriented nonprofit and educational organizations.</p>
+    </article>
+
+    {{!! After all the posts, we have the previous/next pagination links }}
+    
+
+</main>

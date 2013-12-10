@@ -64,10 +64,13 @@ frontendControllers = {
         });
     },
     'single': function (req, res, next) {
+
+        console.log("the slug is", req.params.slug);
+
         api.posts.read({'slug': req.params.slug}).then(function (post) {
-            if (post) {
+            if (req.params.slug == 'about') {
                 ghost.doFilter('prePostsRender', post, function (post) {
-                    res.render('post', {post: post});
+                    res.render('about', {post: post});                    
                 });
             } else {
                 next();
