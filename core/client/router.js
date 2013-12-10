@@ -54,6 +54,7 @@
         editor: function (id) {
             var post = new Ghost.Models.Post();
             post.urlRoot = Ghost.settings.apiRoot + '/posts';
+            console.log("THIS IS THE ID FROM THE DEBUGGER", id);
             if (id) {
                 post.id = id;
                 post.fetch().then(function () {
