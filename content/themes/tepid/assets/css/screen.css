@@ -392,6 +392,10 @@ strong {
     font-family: 'Syncopate', sans-serif;    
 }
 
+ul.nav, ul.nav li {
+    display: inline;
+}
+
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
 #blog-logo img {
