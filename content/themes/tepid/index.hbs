@@ -19,9 +19,9 @@
 <div class="menu">
     <ul >
         <li><a href="/">Home</li>
-        <li><a href="/about">About</li>
-        <li><a href="/contact">Contact</li>
+        <li><a href="/about">About</li>        
         <li><a href="/cornerstone">Cornerstone</li>        
+        <li><a href="/contact">Contact</li>
     </ul>
 </div>
 
@@ -32,7 +32,7 @@
     {{#foreach posts}}
     <article class="{{post_class}}">
         <header class="post-header">
-            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}</span>
+            <!-- <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> {{#if tags}}on {{tags}}{{/if}}</span> -->
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
         </header>
 
@@ -49,6 +49,6 @@
     {{/foreach}}
 
     {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}}
+  <!--   {{pagination}} -->
 
 </main>
