@@ -470,6 +470,7 @@ ul.nav, ul.nav li {
 .post-title {
     margin:0;
     text-align: center;
+    margin-top: 20px;
 }
 
 .post-title a {
