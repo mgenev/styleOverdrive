@@ -151,7 +151,7 @@ a {
 }
 
 a:hover {
-    color: rgb(206,114,102);
+    color: rgb(98,145,64);
 }
 
 h1 a, h2 a, h3 a,
@@ -183,7 +183,7 @@ blockquote {
     box-sizing: border-box;
     margin: 1.6em 0 1.6em -2.2em;
     padding: 0 0 0 1.6em;
-    border-left: #CE7266 0.4em solid;
+    border-left: #629140 0.4em solid;
 }
 
 blockquote p {
@@ -496,7 +496,7 @@ ul.nav, ul.nav li {
     margin: 0 0 5px 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
-    color: rgba(206,114,102,0.7);
+    color: rgba(98,145,64,0.7);
     text-align: center;
     width:100%;
 }
@@ -677,7 +677,7 @@ ul.nav, ul.nav li {
     margin: 4rem auto;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
-    color: rgb(206,114,102);
+    color: rgb(98,145,64);
     text-align: center;
 }
 
@@ -724,17 +724,17 @@ ul.nav, ul.nav li {
 	position: relative;
 	margin: 8rem 0 0 0;
 	padding: 4rem 0;
-	border-top: #CE7266 1px solid;
+	border-top: #629140 1px solid;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.3rem;
 	line-height: 1.7em;
 	color: #585448;
 	text-align: center;
-	background: rgba(239,190,97,0.03);
+	background: rgba(98,145,64,0.03);
 }
 
 .site-footer a {
-	color: #CE7266;
+	color: #629140;
 	text-decoration: none;
 }
 
